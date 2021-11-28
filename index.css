@@ -43,6 +43,24 @@ th {
     position: relative;
     padding-left: 0em;
   }
+#form1{
+    background-image: url("./images/home3.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    padding-top: 5%;
+    padding-left: 30%;
+}
+label{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.form-group{
+    width: 50%;
+}
 .navbar{
         background-color: rgb(12,13,18);
     
