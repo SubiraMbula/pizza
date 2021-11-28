@@ -13,8 +13,7 @@
     padding-top: -5em;
 }
 #about{
-    font-family: 'Lobster', cursive;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Courgette', cursive;
     text-align: center;
     font-size: 18px;
 }
@@ -22,18 +21,17 @@
     /* background-image: url("./images/home3.jpg"); */
     /* background-size: cover; */
     background-color: black;
-    font-family: 'Lobster', cursive;
-    font-family: 'Pacifico', cursive;
     /* opacity: 50%; */
     color: white;
     text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
 table {
     /* background-color: white; */
     color: white;
     border: 1px solid black;
     width: 100%;
-   font-size: 20px;
   }
   td {
     text-align: center;
@@ -47,10 +45,10 @@ th {
     background-image: url("./images/home3.jpg");
     background-size: cover;
     text-align: center;
-    font-family: 'Lobster', cursive;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Amatic SC', cursive;
     padding-top: 5%;
     padding-left: 30%;
+    padding-bottom: 5%;
 }
 label{
     color: white;
@@ -60,6 +58,7 @@ label{
 }
 .form-group{
     width: 50%;
+    opacity: 80%;
 }
 .navbar{
         background-color: rgb(12,13,18);
@@ -76,4 +75,17 @@ label{
         z-index: 2;
         padding-top: 5%;
       } */
+}
+#contact{
+    font-family: 'Kaushan Script', cursive;
+    background-image: url("./images/home4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.form{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    opacity: 40%;
 }
