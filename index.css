@@ -1,3 +1,19 @@
 .landpage img{
-    height: 50%;
+    height: 100vh;
+}
+.navbar{
+        background-color: rgb(12,13,18);
+    
+        /* background: #0082e6;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        z-index: 2;
+        padding-top: 5%;
+      } */
 }
