@@ -1,5 +1,16 @@
-.landpage img{
-    height: 100vh;
+#landpage {
+    background-image: url("./images/home2.jpg");
+    background-size: cover;
+    padding: 15%;
+    background-repeat: no-repeat;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 65px;
+    text-align: center;
+ 
+}
+#landpage> p{
+    padding-top: -5em;
 }
 .navbar{
         background-color: rgb(12,13,18);
