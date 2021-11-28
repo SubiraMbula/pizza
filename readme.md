@@ -1,7 +1,7 @@
 # Project Title
+#### PIZZA PALACE
+this is a website that users can use to order different types, sizes and toppings of pizza and they get to pay at affordable prices
 
-Akan Naming
-This is a site which allows one to know their ghananian name.The nming rule in ghana follows a rule whereby the names would be given according to the days of the week.
 ## Built with;
 1. HTML
 2. CSS
@@ -22,7 +22,7 @@ your local machine for development and testing purposes.
 2. cd to the directory you want to clone it
 3. type git clone   
 
-      https://github.com/SubiraMbula/Delani-studio
+      https://github.com/SubiraMbula/pizza
 
 4. open it in the text editor of your choice
 
@@ -42,7 +42,7 @@ License - see the [LICENSE.md](LICENSE.md) file for more
 details
 ## Contact
 1. Email- subira.savali@student.moringaschool.com
-1. project link-https://github.com/SubiraMbula/Delani-studio
+1. project link-https://github.com/SubiraMbula/pizza
 ## Aknowledgement
 1. MIT open source lisence.
 2. Git hub 
