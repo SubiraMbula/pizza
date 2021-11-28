@@ -12,6 +12,23 @@
 #landpage> p{
     padding-top: -5em;
 }
+#about{
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+table {
+    border: 1px solid black;
+    width: 100%;
+  }
+  td {
+    text-align: center;
+  }
+th {
+    height: 70px;
+    position: relative;
+    padding-left: 14em;
+  }
 .navbar{
         background-color: rgb(12,13,18);
     
