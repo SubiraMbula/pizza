@@ -16,10 +16,24 @@
     font-family: 'Lobster', cursive;
     font-family: 'Pacifico', cursive;
     text-align: center;
+    font-size: 18px;
+}
+#menu{
+    /* background-image: url("./images/home3.jpg"); */
+    /* background-size: cover; */
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    /* opacity: 50%; */
+    color: white;
+    text-align: center;
 }
 table {
+    /* background-color: white; */
+    color: white;
     border: 1px solid black;
     width: 100%;
+   font-size: 20px;
   }
   td {
     text-align: center;
@@ -27,7 +41,7 @@ table {
 th {
     height: 70px;
     position: relative;
-    padding-left: 14em;
+    padding-left: 0em;
   }
 .navbar{
         background-color: rgb(12,13,18);
