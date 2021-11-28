@@ -11,7 +11,7 @@
 #landpage p {
     font-weight: 700;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Lobster', cursive;;
     text-transform:none;
     background: linear-gradient(90deg, white, yellow , white);
@@ -21,7 +21,7 @@
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: shine 20s linear infinite;
+    animation: shine 10s linear infinite;
     position: relative;
 }
   
@@ -100,7 +100,7 @@ label{
     opacity: 80%;
 }
 .navbar{
-        background-color: rgb(12,13,18);
+        background-color: white;
     
         /* background: #0082e6;
         height: 80px;
@@ -115,6 +115,9 @@ label{
         padding-top: 5%;
       } */
 }
+/* .navybar{
+    color: black;
+} */
 #contact{
     font-family: 'Kaushan Script', cursive;
     background-image: url("./images/home4.jpg");
