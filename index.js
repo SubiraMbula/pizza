@@ -52,8 +52,9 @@ $(document).ready(function(){
         alert( newOrder.order());
         alert("Your bill is: " + newTotal.finalTotal());
         alert("Thank you for shopping with us! " )
-        }else{
-            if(pizzaPick===2){
+        }
+        else {
+          if(pizzaPick===2){
                var location= prompt(" Where would your like your Pizza to be Delivered? ");
                alert("your pizza will be delivered at " + location + " you will be charged 200/= for delivery");
                alert(newOrder.order());
