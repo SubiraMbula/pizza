@@ -1,16 +1,55 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+#landpage a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
+  
+#landpage p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;;
+    text-transform:none;
+    background: linear-gradient(90deg, white, yellow , white);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 20s linear infinite;
+    position: relative;
+}
+  
+ @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+  /*  Checkout my other pens on  https://codepen.io/grohit/  */
 #landpage {
     background-image: url("./images/home2.jpg");
     background-size: cover;
-    padding: 15%;
+    padding: 9%;
     background-repeat: no-repeat;
     font-family: 'Lobster', cursive;
     color: white;
     font-size: 65px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
  
-}
-#landpage> p{
-    padding-top: -5em;
 }
 #about{
     font-family: 'Courgette', cursive;
