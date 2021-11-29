@@ -30,7 +30,7 @@ your local machine for development and testing purposes.
 ## Running the tests
 below is a live demo of the project:
 
-<img src=photos/livedemo.gif>
+<img src="./demo.gif">
 
 ## Authors
 Subira Mbula
