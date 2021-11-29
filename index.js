@@ -1,16 +1,10 @@
-// $(document).ready(function(){
-//     $("#orderhere").click(function(){
-//       $("#form1").toggle();
-//     });
-//   });
-  
-  function Results (type,size,crust,toppings) {
+function Results (type,size,crust,toppings) {
     this.type = type;
     this.size= size;
     this.crust= crust;
     this.toppings=toppings;
   };
-  Results.prototype.order = function() {
+Results.prototype.order = function() {
     return "You have made an order of " + this.type + " pizza  with " + this.toppings + " as toppings and " + this.crust + " for crust ."
   };
   function TotalPrice (price, quantity, delivery,toppings,crust) {
@@ -30,9 +24,11 @@
   var crustNames= ["Crispy", "Stuffed", "Glutton-free"]
   var crustPrices = [100,120,200]
   var deliveryPrices = [0, 200];
+
+ 
   $(document).ready(function(){
-    $('form#form1').submit(function (event) {
-        event.preventDefault();
+    $('.btn').click(function (event) {
+      event.preventDefault();
     var pizzaType = $('#type').val();
     var pizzaSize = parseInt($('#size').val());
     var pizzaToppings=parseInt($('#toppings').val());
@@ -52,9 +48,8 @@
         alert( newOrder.order());
         alert("Your bill is: " + newTotal.finalTotal());
         alert("Thank you for shopping with us! " )
-        }
-        else {
-          if(pizzaPick===2){
+        }else{
+            if(pizzaPick===2){
                var location= prompt(" Where would your like your Pizza to be Delivered? ");
                alert("your pizza will be delivered at " + location + " you will be charged 200/= for delivery");
                alert(newOrder.order());
